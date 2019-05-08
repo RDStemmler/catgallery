@@ -1,0 +1,74 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('img/wallpaper.jpg') center/cover no-repeat;
+}
+
+.intro {
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'Coda Caption', serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: peachpuff;
+    padding: 3%;
+}
+
+.images {
+    flex: 0 0 80%;
+    flex-direction: row;
+    min-height: 70vh;
+    background: url('img/bcg-0.jpg')center/cover no-repeat;
+    border-radius: 15px;
+    box-shadow: 5px 5px #464646;
+    position: relative;
+}
+
+.btn {
+    display: inline-block;
+    background: white;
+    color: #464646;
+    border: 3px solid peachpuff;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 20%;
+    box-shadow: 2px 2px #464646;
+    outline: none;
+}
+
+.prevBtn {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+}
+
+.nextBtn {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(50%, -50%);
+}
+
+.btn:active {
+    background: grey;
+    box-shadow: 1px 1px grey;
+}
+
+.btn:hover {
+    background: peachpuff;
+    color: grey;
+}
+
+
+
+
+
+
+
+font-family: 'Marko One', serif;
